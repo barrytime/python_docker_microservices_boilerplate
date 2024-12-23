@@ -2,7 +2,7 @@
 
 This project is a boilerplate for building Python microservices using Docker. It provides a structured way to manage multiple services that can share common modules.
 
-## Project Structure
+<!-- ## Project Structure
 
 my_project/
 ├── shared_modules/
@@ -19,7 +19,7 @@ my_project/
 │ └── requirements.txt
 ├── .env
 ├── .env.docker
-└── docker-compose.yml
+└── docker-compose.yml -->
 
 ## Local Development
 
