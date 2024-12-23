@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+    service_a:
+        build:
+            context: .
+            dockerfile: ./service_a/Dockerfile
+        env_file:
+            - ./.env.docker
+    service_b:
+        build:
+            context: .
+            dockerfile: ./service_b/Dockerfile
+        env_file:
+            - ./.env.docker
