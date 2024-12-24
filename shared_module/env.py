@@ -15,5 +15,3 @@ def load_environment():
 
     dotenv_path = os.path.join(APP_ROOT, current_env or ".env")
     load_dotenv(dotenv_path)
-
-    print(os.getenv("PROJECT_ENV"))
